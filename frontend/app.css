@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#card-container {
+    display: flex;
+    width: 75%;
+    height: 75%;
+    flex-flow: column;
+    border-style: double;
+    border-color: green;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+    border-style: double;
+    border-color: red;
+    text-align: center;
+    margin: 1em;
+}
